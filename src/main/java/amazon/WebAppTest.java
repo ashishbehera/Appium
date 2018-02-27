@@ -87,6 +87,7 @@ public class WebAppTest {
     {
         logger=extent.startTest("WebAppDemo");
        // WebView.setWebContentsDebuggingEnabled(true);
+// WebView.setWebContentsDebuggingEnabled(true);
 
         driver.get("http://www.facebook.com");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
