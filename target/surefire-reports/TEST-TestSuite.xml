@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="12.98" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Automation\AppiumTest2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Automation\AppiumTest2"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\abehe1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Automation\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\AccuRev\bin;C:\gradle-2.3\bin;C:\Program Files\cURL\bin;D:\Software\curl;C:\Program Files (x86)\Skype\Phone\;D:\Automation\drivers;D:\Automation\apache-maven-3.5.0\bin;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files\nodejs\;%ANDROID_HOME%;%ANDROID_TOOLS%;%ANDROID_PLATFORM_TOOLS%;C:\Users\abehe1\AppData\Roaming\npm;C:\adb;C:\Users\abehe1\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="D:\Automation\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="D:\Automation\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\abehe1"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="abehe1"/>
+    <property name="java.class.path" value="D:\Automation\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Automation\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="WebAppDemo" classname="amazon.WebAppTest" time="12.98">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;id=q&quot;}&#10;  (Session info: chrome=61.0.3163.98)&#10;  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.10 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;BLRABEHE175889&apos;, ip: &apos;10.102.35.148&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, version=, deviceName=463adad7ce4, platform=ANY, deviceUDID=463adad7ce4, desired={noReset=true, platformVersion=6.0.1, browserName=Chrome, platformName=Android, version=, deviceName=Redmi, platform=ANY}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=Chrome, javascriptEnabled=true, deviceModel=Redmi 4, platformName=Android, deviceManufacturer=Xiaomi}]&#10;Session ID: 426e62a8-dcf6-4e08-ac57-59f930dc2812&#10;*** Element info: {Using=id, value=id=q}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"id=q"}
+  (Session info: chrome=61.0.3163.98)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRABEHE175889', ip: '10.102.35.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=720x1280, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, version=, deviceName=463adad7ce4, platform=ANY, deviceUDID=463adad7ce4, desired={noReset=true, platformVersion=6.0.1, browserName=Chrome, platformName=Android, version=, deviceName=Redmi, platform=ANY}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=Chrome, javascriptEnabled=true, deviceModel=Redmi 4, platformName=Android, deviceManufacturer=Xiaomi}]
+Session ID: 426e62a8-dcf6-4e08-ac57-59f930dc2812
+*** Element info: {Using=id, value=id=q}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at amazon.WebAppTest.WebAppDemo(WebAppTest.java:86)
+</failure>
+    <system-out><![CDATA[[Appium] Welcome to Appium v1.7.1
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --> GET /wd/hub/status {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 11 ms - 83 
+Appium Service Address : - http://0.0.0.0:4723/wd/hub
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"noReset":"true","platformVersion":"6.0.1","browserName":"Chrome","platformName":"Android","version":"","deviceName":"Redmi","platform":"ANY"},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"noReset":"true","platformVersion":"6.0.1","browserName":"Chrome","platformName":"Android","version":"","deviceName":"Redmi","platform":"ANY"},"requiredCapabilities":{},"alwaysMatch":{"browserName":"Chrome","platformName":"Android"},"firstMatch":[]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"noReset":"true","platformVersion":"6.0.1","browserName":"Chrome","platformName":"Android","version":"","deviceName":"Redmi","platform":"ANY"},{},{"desiredCapabilities":{"noReset":"true","platformVersion":"6.0.1","browserName":"Chrome","platformName":"Android","version":"","deviceName":"Redmi","platform":"ANY"},"requiredCapabilities":{},"alwaysMatch":{"browserName":"Chrome","platformName":"Android"},"firstMatch":[]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1507047765564 (21:52:45 GMT+0530 (India Standard Time))
+[Appium] Creating new AndroidDriver (v1.28.1) session
+[Appium] Capabilities:
+[Appium]   noReset: 'true'
+[Appium]   platformVersion: '6.0.1'
+[Appium]   browserName: 'Chrome'
+[Appium]   platformName: 'Android'
+[Appium]   version: ''
+[Appium]   deviceName: 'Redmi'
+[Appium]   platform: 'ANY'
+[BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: version, platform.
+[BaseDriver] Session created with session id: 426e62a8-dcf6-4e08-ac57-59f930dc2812
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_131
+[AndroidDriver] We're going to run a Chrome-based session
+[AndroidDriver] Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Android\sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Looking for a device with Android '6.0.1'
+[debug] [ADB] Setting device id to 463adad7ce4
+[ADB] Getting device platform version
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","getprop","ro.build.version.release"]
+[debug] [ADB] Current device property 'ro.build.version.release': 6.0.1
+[AndroidDriver] Using device: 463adad7ce4
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Android\sdk\platform-tools\adb.exe
+[debug] [ADB] Setting device id to 463adad7ce4
+[AndroidDriver] App file was not listed, instead we're going to run com.android.chrome directly on the device
+[debug] [AndroidDriver] Checking whether package is present on the device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","pm","list","packages","com.android.chrome"]
+[AndroidDriver] Starting Android session
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","wait-for-device"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","echo","ping"]
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Uninstalling and re-installing 'io.appium.settings'
+[debug] [ADB] Uninstalling io.appium.settings
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","pm","list","packages","io.appium.settings"]
+[debug] [ADB] App is not installed
+[ADB] io.appium.settings was not uninstalled, because it was not present on the device
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","pm","list","packages","io.appium.settings"]
+[debug] [ADB] App is not installed
+[debug] [ADB] App 'C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk' not installed. Installing
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","install","C:\\Users\\abehe1\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","getprop","ro.build.version.sdk"]
+[debug] [ADB] Current device property 'ro.build.version.sdk': 23
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","dumpsys","package","io.appium.settings"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","ps"]
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","am","start","-W","-n","io.appium.settings/.Settings","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+[ADB] Error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:89:13)
+    at tryCatch (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+ Error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:89:13)
+    at tryCatch (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+[ADB] Error: Error occured while starting App. Original error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+ Error: Error occured while starting App. Original error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+[AndroidDriver] Failed to launch settings app: Error occured while starting App. Original error: Activity used to start app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","install","C:\\Users\\abehe1\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+[ADB] Getting device platform version
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","getprop","ro.build.version.release"]
+[debug] [ADB] Current device property 'ro.build.version.release': 6.0.1
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","wm","size"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","getprop","ro.product.model"]
+[debug] [ADB] Current device property 'ro.product.model': Redmi 4
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","getprop","ro.product.manufacturer"]
+[debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+[AndroidDriver] No app sent in, not parsing package/activity
+[debug] [AndroidDriver] No app capability. Assuming it is already on the device
+[debug] [AndroidBootstrap] Watching for bootstrap disconnect
+[debug] [ADB] Forwarding system: 4724 to device: 4724
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","forward","tcp:4724","tcp:4724"]
+[debug] [UiAutomator] Starting UiAutomator
+[debug] [UiAutomator] Moving to state 'starting'
+[debug] [UiAutomator] Parsing uiautomator jar
+[debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","push","C:\\Users\\abehe1\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[debug] [UiAutomator] Starting UIAutomator
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","463adad7ce4","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.android.chrome","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [UiAutomator] Moving to state 'online'
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[debug] [ADB] Getting connected devices...
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","shell","dumpsys","window"]
+[AndroidDriver] Screen already unlocked, doing nothing
+[AndroidDriver] Starting a chrome-based browser session
+[debug] [AndroidDriver] A port was not given, using random port: 8000
+[debug] [Chromedriver] Changed state to 'starting'
+[Chromedriver] Set chromedriver binary as: C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe
+[debug] [Chromedriver] Killing any old chromedrivers, running: FOR /F "usebackq tokens=5" %a in (`netstat -nao ^| findstr /R /C:"8000 "`) do (FOR /F "usebackq" %b in (`TASKLIST /FI "PID eq %a" ^| findstr /I chromedriver.exe`) do (IF NOT %b=="" TASKKILL /F /PID %a))
+[Chromedriver] No old chromedrivers seemed to exist
+[debug] [Chromedriver] Cleaning any old adb forwarded port socket connections
+[debug] [ADB] List forwarding ports
+[debug] [ADB] Running 'D:\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","463adad7ce4","forward","--list"]
+[Chromedriver] Spawning chromedriver with: C:\Users\abehe1\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe --url-base=wd/hub --port=8000 --adb-port=5037 --verbose
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8000/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"\",\"status\":0,\"value\":{\"build\":{\"version\":\"alpha\"},\"os\":{\"arch\":\"x86_64\",\"name\":\"Windows NT\",\"version\":\"6.1.7601 SP1\"}}}"
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8000/wd/hub/session] with body: {"desiredCapabilities":{"chromeOptions":{"androidPackage":"com.android.chrome","androidDeviceSerial":"463adad7ce4"}}}
+[debug] [Chromedriver] Webview version: 'Chrome/61.0.3163.98'
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"0b93db50022c88d0a2fea5137d8b9220","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41)"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":true,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"pageLoadStrategy":"normal","platform":"ANDROID","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"61.0.3163.98","webStorageEnabled":true}}
+[debug] [Chromedriver] Changed state to 'online'
+[Appium] New AndroidDriver session created successfully, session 426e62a8-dcf6-4e08-ac57-59f930dc2812 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1507047796730 (21:53:16 GMT+0530 (India Standard Time))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"ANY","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"noReset":true,"platformVersion":"6.0.1","browserName":"Chrome","platformName":"Android","version":"","deviceName":"Redmi","platform":"ANY"},"noReset":true,"platformVersion":"6.0.1","browserName":"Chrome","platformName":"Android","version":"","deviceName":"463adad7ce4","deviceUDID":"463adad7ce4","deviceScreenSize":"720x1280","deviceModel":"Redmi 4","deviceManufacturer":"Xiaomi"}
+[HTTP] <-- POST /wd/hub/session 200 31170 ms - 657 
+[HTTP] --> POST /wd/hub/session/426e62a8-dcf6-4e08-ac57-59f930dc2812/url {"url":"http://www.seleniumhq.org"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/426e62a8-dcf6-4e08-ac57-59f930dc2812/url] to [POST http://127.0.0.1:8000/wd/hub/session/0b93db50022c88d0a2fea5137d8b9220/url] with body: {"url":"http://www.seleniumhq.org"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"0b93db50022c88d0a2fea5137d8b9220","status":0,"value":null}
+[JSONWP Proxy] Replacing sessionId 0b93db50022c88d0a2fea5137d8b9220 with 426e62a8-dcf6-4e08-ac57-59f930dc2812
+[HTTP] <-- POST /wd/hub/session/426e62a8-dcf6-4e08-ac57-59f930dc2812/url 200 2812 ms - 76 
+[HTTP] --> POST /wd/hub/session/426e62a8-dcf6-4e08-ac57-59f930dc2812/timeouts {"type":"implicit","ms":10000}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/426e62a8-dcf6-4e08-ac57-59f930dc2812/timeouts] to [POST http://127.0.0.1:8000/wd/hub/session/0b93db50022c88d0a2fea5137d8b9220/timeouts] with body: {"type":"implicit","ms":10000}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"0b93db50022c88d0a2fea5137d8b9220","status":0,"value":null}
+[JSONWP Proxy] Replacing sessionId 0b93db50022c88d0a2fea5137d8b9220 with 426e62a8-dcf6-4e08-ac57-59f930dc2812
+[HTTP] <-- POST /wd/hub/session/426e62a8-dcf6-4e08-ac57-59f930dc2812/timeouts 200 8 ms - 76 
+[HTTP] --> POST /wd/hub/session/426e62a8-dcf6-4e08-ac57-59f930dc2812/element {"using":"id","value":"id=q"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/426e62a8-dcf6-4e08-ac57-59f930dc2812/element] to [POST http://127.0.0.1:8000/wd/hub/session/0b93db50022c88d0a2fea5137d8b9220/element] with body: {"using":"id","value":"id=q"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"0b93db50022c88d0a2fea5137d8b9220","status":7,"value":{"message":"no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"id=q\"}\n  (Session info: chrome=61.0.3163.98)\n  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
+[JSONWP Proxy] Replacing sessionId 0b93db50022c88d0a2fea5137d8b9220 with 426e62a8-dcf6-4e08-ac57-59f930dc2812
+[HTTP] <-- POST /wd/hub/session/426e62a8-dcf6-4e08-ac57-59f930dc2812/element 200 10076 ms - 335 
+]]></system-out>
+    <system-err><![CDATA[Oct 03, 2017 9:53:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
